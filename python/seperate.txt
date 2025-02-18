@@ -1,0 +1,17 @@
+vllm==0.7.2
+torch==2.6.0
+torchvision==0.18.0
+numpy==2.2.3
+pip install auto-gptq --no-cache-dir
+python -m ensurepip --upgrade
+pylzma -- microsoft C++ build tools
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+or 
+pip install torch --index-url https://download.pytorch.org/whl/cu118
+no -- torchvision torchaudio 
+
+
+
