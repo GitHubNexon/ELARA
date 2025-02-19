@@ -1,0 +1,12 @@
+{
+    "greetings": ["hello", "hi", "hey", "morning", "afternoon", "evening"],
+    "questions": {
+        "who are you": "I am ELARA, your intelligent assistant. How can I help you today?",
+        "what is your name": "I am ELARA, your intelligent assistant. How can I help you today?"
+    },
+    "time_commands": ["time", "hour", "clock"],
+    "date_commands": ["date", "today"],
+    "math_operators": ["+", "-", "*", "/", "(", ")"],
+    "goodbye": ["goodbye", "exit"],
+    "clear": ["clear"]
+}
