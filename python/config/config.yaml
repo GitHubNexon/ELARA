@@ -1,0 +1,14 @@
+# config/config.yaml
+
+train:
+  batch_size: 8
+  epochs: 3
+  learning_rate: 5e-5
+  max_input_length: 1024
+  output_dir: "../models"        
+  logging_dir: "../logs"        
+  save_steps: 500
+
+test:
+  model_path: "../models/model.pt"  
+  max_input_length: 1024
